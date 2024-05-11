@@ -1,0 +1,98 @@
+.envoltura-buscador{
+    border:2px solid #B1B1B1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.envoltura-buscador span{
+    background: transparent;
+    border:0;
+}
+
+.envoltura-buscador .form-control{
+    border:0;
+}
+
+
+/********** Seccion favoritos ********/
+.fondo-banner{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.articulo-favoritos{
+    display: flex;
+    border:1px solid #00D2C6;
+    background-color: white;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.articulo-favoritos.active{
+    background-color: #FDF423;
+    border:1px solid #C2D200;
+}
+
+.articulo-favoritos__img{
+    width: 35%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.portada-newjeans{
+    background-image: url("../img/portadas/newjeans.png");
+}
+
+.portada-illit{
+    background-image: url("../img/portadas/illit.jpg");
+    background-size: 220%;
+    background-position: top;
+}
+
+.articulo-favoritos__contenido{
+    width: 60%;
+}
+
+.articulo-favoritos__contenido-titulo{
+    font-size:18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.articulo-favoritos__contenido-subtitulo,.articulo-favoritos__contenido-descripcion{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.articulo-favoritos__contenido-subtitulo{
+    font-size:11px;
+}
+
+.articulo-favoritos__contenido-descripcion{
+    font-size:13px;
+    line-height: 160%;
+}
+
+.articulo-favoritos__contenido-btn{
+    margin-top: 25px;
+}
+
+.articulo-favoritos__contenido-btn__icon-play{
+    width: 35px;
+    margin-right: 15px;
+}
+
+.articulo-favoritos__contenido-btn a{
+    font-size:14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}

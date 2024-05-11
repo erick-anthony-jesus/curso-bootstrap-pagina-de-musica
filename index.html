@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de música</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="container pt-4 pb-4">
+        <div class="row">
+            <div class="col-3">
+                <h4>Tus canciones favoritas</h4>
+            </div>
+            <div class="col-6">
+                <div class="input-group envoltura-buscador flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping"><img src="img/iconos/icono-lupa.svg"></span>
+                    <input type="text" class="form-control shadow-none" placeholder="Busca tu canción" >
+                </div>
+            </div>
+            <div class="col-3">
+                <a href="#" class="btn btn-dark">Agregar canción</a>
+                <a href="#" class="btn btn-outline-dark">Borra favoritos</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="fondo-banner">
+        <section class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-4">
+                    <div class="articulo-favoritos">
+                        <div class="articulo-favoritos__img portada-newjeans"></div>
+                        <div class="articulo-favoritos__contenido">
+                            <h3 class="articulo-favoritos__contenido-titulo">New jeans</h3>
+                            <h4 class="articulo-favoritos__contenido-subtitulo">Cool With You</h4>
+                            <p class="articulo-favoritos__contenido-descripcion">"New Jeans" es una canción interpretada por el artista puertorriqueño Dalex, lanzada en su álbum
+                                debut "Climaxxx" en
+                                2020.</p>
+        
+                            <div class="articulo-favoritos__contenido-btn">
+                                <img src="img/iconos/play-button.png" class="articulo-favoritos__contenido-btn__icon-play">
+                                <a href="#" class="btn btn-outline-dark">Quitar canción</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="articulo-favoritos active">
+                        <div class="articulo-favoritos__img portada-illit"></div>
+                        <div class="articulo-favoritos__contenido">
+                            <h3 class="articulo-favoritos__contenido-titulo">Illit</h3>
+                            <h4 class="articulo-favoritos__contenido-subtitulo">Super real</h4>
+                            <p class="articulo-favoritos__contenido-descripcion">La melodía destaca la energía y el espíritu vibrante del grupo, ofreciendo una fusión única de ritmos contagiosos y
+                            letras poderosas.</p>
+                
+                            <div class="articulo-favoritos__contenido-btn">
+                                <img src="img/iconos/play-button.png" class="articulo-favoritos__contenido-btn__icon-play">
+                                <a href="#" class="btn btn-outline-dark">Quitar canción</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
